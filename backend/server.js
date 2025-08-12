@@ -21,6 +21,12 @@ app.use(
     })
 );
 
+const corsOptions = {
+    origin: "https://prepgenius.onrender.com",
+    credentials: true
+}
+
+app.use(cors(corsOptions));
 connectDB();
 
 app.use(express.json()); 
