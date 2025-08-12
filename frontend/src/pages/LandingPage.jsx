@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import {LuSparkles}from 'react-icons/lu';
 import {APP_FEATURES} from "../utils/data";
 import Login from "../pages/Auth/Login";
-import Signup from "../pages/Auth/Signup";
+import Signup from "../pages/Auth/SignUp";
 import Modal from "../components/Modal";
 import logo2 from "../assets/logo2.png";
 import ProfileInfoCard from "../components/Cards/ProfileInfoCard";
