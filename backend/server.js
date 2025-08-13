@@ -41,7 +41,7 @@ app.use("/api/ai/generate-interview-questions", protect, generateInterviewQuesti
 app.use("/api/ai/generate-concept-explanation", protect, generateConceptExplanation);
 
 
-app.use("/uploads", express.static(path.join(__dirname, "uploads")));
+app.use("/uploads", express.static(path.join(__dirname, "../uploads"),{}));
 
 const _dirname = path.resolve();
 
